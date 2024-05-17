@@ -1,4 +1,6 @@
 # Knative Reconciler Test
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fknative-extensions%2Freconciler-test.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fknative-extensions%2Freconciler-test?ref=badge_shield)
+
 
 This repo contains tools and frameworks to help validate and test reconciler
 implementations.
@@ -561,3 +563,7 @@ go test -v -count=1 -tags=e2e ./test/... --images.producer.file=images.yaml
 
 - Change versions in `./hack/update-cert-manager.sh`
 - Run `./hack/update-cert-manager.sh`
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fknative-extensions%2Freconciler-test.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fknative-extensions%2Freconciler-test?ref=badge_large)
